@@ -1,16 +1,15 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ViewbooksComponent} from "./viewbooks.component";
 
-import { ViewbooksComponent } from './viewbooks.component';
-
-describe('ViewbooksComponent', () => {
+describe('AddbookComponent', () => {
   let component: ViewbooksComponent;
   let fixture: ComponentFixture<ViewbooksComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ViewbooksComponent ]
+      declarations: [ ViewbooksComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ViewbooksComponent);
     component = fixture.componentInstance;
