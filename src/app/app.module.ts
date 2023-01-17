@@ -6,13 +6,16 @@ import { AppComponent } from './app.component';
 import { AddbookComponent } from './addbook/addbook.component';
 import { ViewbooksComponent } from './viewbooks/viewbooks.component';
 import { HttpClientModule} from "@angular/common/http";
+import { AddBookComponent } from './add-book/add-book.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AddbookComponent,
-    ViewbooksComponent
+    ViewbooksComponent,
+    AddBookComponent
+
   ],
   imports: [
     BrowserModule,
@@ -22,4 +25,6 @@ import { HttpClientModule} from "@angular/common/http";
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
